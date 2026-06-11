@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Amazon Review Sentiment Analysis</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.2/papaparse.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>📊 Amazon Review Sentiment Analysis</h1>
+    <input type="file" id="csvFile" accept=".csv" />
+    <button onclick="analyzeSentiment()">Analyze</button>
+    
+    <div id="output">
+      <canvas id="sentimentChart"></canvas>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
